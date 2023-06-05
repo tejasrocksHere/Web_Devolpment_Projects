@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    min-height: 100vh;
+    position: relative;
+
+width: 100%;
+display: flex;
+justify-content: center;
+align-self: center;
+background-color: #04050b;
+color: white;
+
+}
+#img{
+    border-radius: 300px;
+width: 270px;
+}
+.main img-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main img-container imgc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.main img-container #heading{
+    align-content: center;
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talk{
+    background-color: rgb(110, 111, 206);
+    padding: 4px;
+    /* text-align: center; */
+    align-content: center;
+transition: all .3s linear;
+}
+.talk:hover{
+    background-color: rgb(174, 174, 255);
+    transform: translateY(-2px);
+}
+ 

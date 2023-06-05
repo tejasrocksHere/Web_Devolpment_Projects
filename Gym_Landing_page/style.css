@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&family=Source+Serif+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* overflow: hidden; */
+    background-color: rgb(193, 189, 189);
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar li{
+
+    list-style: none;
+    margin: 0px 12px;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    /* background-color: black;
+    color: antiquewhite; */
+    font-family: 'Source Serif Pro', serif;
+
+}
+.TejuFitness
+{
+
+    font-family: 'Alegreya SC', serif;
+}
+
+.topleft{
+    width: 50%;
+}
+.topright{
+
+width: 50%;
+/* background-color: aqua; */
+
+}
+.section1
+{
+    height: 50vh;
+    /* background-color: black; */
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+}
+.section
+{
+    height: 50vh;
+    /* background-color: black; */
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+}
+.toprightimg{
+    width: 50%;
+    /* height: 200px; */
+    /* background-size: cover; */
+}
+.box{
+    margin: 10px 10px;
+    padding: 10px;
+}

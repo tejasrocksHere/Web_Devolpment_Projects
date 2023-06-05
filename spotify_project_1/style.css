@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    background-color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: wheat;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    /* padding-right: 10px; */
+}
+
+.brand img {
+    width: 50px;
+    padding: 0px 8px;
+}
+
+nav ul li {
+    padding: 0px 12px;
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   /* font-family: 'Varela Round', sans-serif; */
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+font-size: small;
+background-image: url(https://helios-i.mashable.com/imagery/articles/050bXhdmNaL9bDGAINptcrL/hero-image.fill.size_1200x900.v1617973265.jpg);
+}
+
+/* .bottom {
+    position: relative;
+    top: 55vh;
+    right: 22vh;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.bottom1{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+#myProgressBar {
+
+    width: 70vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icons i {
+    cursor: pointer;
+    /* jenvha point krshil pointer cursor badalnar */
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /* width: 80%; */
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    /* cursor: pointer; */
+}
+.songItem i{
+    cursor: pointer;
+}
+.songItem img{
+    width: 45px;
+    height: 45px;
+    margin-left: 2px;
+    border-radius: 20px;
+}
+.songInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -7vh;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
